@@ -1,10 +1,10 @@
 ## Inkscape Extension: Random Rotation
 
-Rotates a rundom number of selected elements for specified angle(s)
+Rotates a (random) number of selected elements for specified angle(s)
 
 ### How To Install
 
-Download the zip file from the [release page](https://github.com/kaalleen/random-rotation-inkscape-extension/releases/latest) and extract to your Inkscape extensions folder.
+Download the zip file from the [release page](https://github.com/kaalleen/random-rotation-inkscape-extension/releases/latest) and extract it to your Inkscape extensions folder.
 
 Works with Inkscape 1.2
 
