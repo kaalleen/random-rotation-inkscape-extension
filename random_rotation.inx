@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Random Rotation</name>
+  <id>org.kaalleen.random_rotation</id>
+
+  <param name="angle" type="string" gui-text="Space separated list of angles">60</param>
+  <param name="num_elements" type="int" gui-text="Number of elements to rotate" gui-description="set to 0 for completely random selection" min="0" max="500">0</param>
+
+  <effect>
+    <object-type>all</object-type>
+      <effects-menu>
+        <submenu name="Modify Path"/>
+      </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">random_rotation.py</command>
+  </script>
+</inkscape-extension>
